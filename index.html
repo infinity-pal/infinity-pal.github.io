@@ -1,23 +1,44 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>موقعي الشخصي</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f0f0f0;
-      text-align: center;
-      padding-top: 50px;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-  </style>
-</head>
-<body>
-  <h1>مرحباً بك في موقعي الشخصي</h1>
-  <p>تم إنشاؤه باستخدام GitHub Pages 🚀</p>
-</body>
-</html>
+Infinity PAL body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; color: #333; } header { background: linear-gradient(90deg, #4b6cb7, #182848); color: white; padding: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; } header img { height: 60px; } nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; } .lang-switch { background: white; color: #182848; border: none; padding: 0.5rem 1rem; cursor: pointer; border-radius: 5px; font-weight: bold; } section { padding: 2rem; max-width: 1000px; margin: auto; } .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; } .service { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; } footer { background: #182848; color: white; text-align: center; padding: 1rem; margin-top: 2rem; } .hidden { display: none; } ￼ من نحن الخدمات تواصل معنا English 
+
+من نحن
+
+نحن فريق مختص في تقديم خدمات الميديا، التصميم، التسويق، والدعاية بإبداع واحترافية.
+
+About Us
+
+We are a team specialized in media, design, marketing, and advertising with creativity and professionalism.
+
+خدماتنا
+
+تصميم جرافيكي
+
+إدارة السوشيال ميديا
+
+إنتاج الفيديو والصور
+
+حملات تسويقية مدفوعة
+
+Our Services
+
+Graphic Design
+
+Social Media Management
+
+Video & Photo Production
+
+Paid Advertising Campaigns
+
+تواصل معنا
+
+واتساب: 000000000
+إنستغرام: @infinitypal
+ايميل: info@infinity.com 
+
+Contact Us
+
+WhatsApp: 000000000
+Instagram: @infinitypal
+Email: info@infinity.com 
+
+© 2025 Infinity PAL. All rights reserved.
+function toggleLang() { const arElements = document.querySelectorAll('.ar'); const enElements = document.querySelectorAll('.en'); const btn = document.querySelector('.lang-switch'); const isArabic = btn.textContent === 'English'; arElements.forEach(el => el.classList.toggle('hidden', !isArabic)); enElements.forEach(el => el.classList.toggle('hidden', isArabic)); btn.textContent = isArabic ? 'العربية' : 'English'; document.documentElement.dir = isArabic ? 'ltr' : 'rtl'; document.documentElement.lang = isArabic ? 'en' : 'ar'; }
