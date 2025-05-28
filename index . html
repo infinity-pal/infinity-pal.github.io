@@ -1,145 +1,107 @@
+```html
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Infinity PAL</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(90deg, #4b6cb7, #182848);
-      color: white;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    header img {
-      height: 60px;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .lang-switch {
-      background: white;
-      color: #182848;
-      border: none;
-      padding: 0.5rem 1rem;
-      cursor: pointer;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-    }
-    .service {
-      background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    footer {
-      background: #182848;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    .hidden {
-      display: none;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Infinity PAL</title>
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #f4f4f4;
+color: #333;
+}
+header {
+background: linear-gradient(90deg, #4b6cb7, #182848);
+color: white;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+header img {
+height: 60px;
+}
+nav a {
+color: white;
+margin: 0 1rem;
+text-decoration: none;
+font-weight: bold;
+}
+.lang-switch {
+background: white;
+color: #182848;
+border: none;
+padding: 0.5…
+قراءة المزيد
+8:13 م
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Infinity PAL Logo">
-    <nav>
-      <a href="#about" class="ar">من نحن</a>
-      <a href="#services" class="ar">الخدمات</a>
-      <a href="#contact" class="ar">تواصل معنا</a>
-      <a href="#about" class="en hidden">About</a>
-      <a href="#services" class="en hidden">Services</a>
-      <a href="#contact" class="en hidden">Contact</a>
-    </nav>
-    <button class="lang-switch" onclick="toggleLang()">English</button>
-  </header>
+<header>
+<img src="logo.png" alt="Infinity PAL Logo">
+<nav>
+<a href="#about" class="ar">من نحن</a>
+<a href="#services" class="ar">الخدمات</a>
+<a href="#contact" class="ar">تواصل معنا</a>
+<a href="#about" class="en hidden">About</a>
+<a href="#services" class="en hidden">Services</a>
+<a href="#contact" class="en hidden">Contact</a>
+</nav>
+<button class="lang-switch" onclick="toggleLang()">English</button>
+</header>
 
-  <section id="about">
-    <div class="ar">
-      <h2>من نحن</h2>
-      <p>نحن فريق مختص في تقديم خدمات الميديا، التصميم، التسويق، والدعاية بإبداع واحترافية.</p>
-    </div>
-    <div class="en hidden">
-      <h2>About Us</h2>
-      <p>We are a team specialized in media, design, marketing, and advertising with creativity and professionalism.</p>
-    </div>
-  </section>
+<section id="about">
+<div class="ar">
+<h2>من نحن</h2>
+<p>نحن فريق مختص في تقديم خدمات الميديا، التصميم، التسويق، والدعاية بإبداع واحترافية.</p>
+</div>
+<div class="en hidden">
+<h2>About Us</h2>
+<p>We are a team specialized in media, design, marketing, and advertising with creativity and professionalism.</p>
+</div>
+</section>
 
-  <section id="services">
-    <div class="ar">
-      <h2>خدماتنا</h2>
-      <div class="services">
-        <div class="service">تصميم جرافيكي</div>
-        <div class="service">إدارة السوشيال ميديا</div>
-        <div class="service">إنتاج الفيديو والصور</div>
-        <div class="service">حملات تسويقية مدفوعة</div>
-      </div>
-    </div>
-    <div class="en hidden">
-      <h2>Our Services</h2>
-      <div class="services">
-        <div class="service">Graphic Design</div>
-        <div class="service">Social Media Management</div>
-        <div class="service">Video & Photo Production</div>
-        <div class="service">Paid Advertising Campaigns</div>
-      </div>
-    </div>
-  </section>
+<section id="services">
+<div class="ar">
+<h2>خدماتنا</h2>
+<div class="services">
+<div class="service">تصميم جرافيكي</div>
+<div class="service">إدارة السوشيال ميديا</div>
+<div class="service">إنتاج الفيديو والصور</div>
+<div class="service">حملات تسويقية مدفوعة</div>
+</div>
+</div>
+<div class="en hidden">
+<h2>Our Services</h2>
+<div class="services">
+<div class="service">Graphic Design</div>
+8:14 م
+<div class="service">Social Media Management</div>
+<div class="service">Video & Photo Production</div>
+<div class="service">Paid Advertising Campaigns</div>
+</div>
+</div>
+</section>
 
-  <section id="contact">
-    <div class="ar">
-      <h2>تواصل معنا</h2>
-      <p>واتساب: 000000000<br>إنستغرام: @infinitypal<br>ايميل: info@infinity.com</p>
-    </div>
-    <div class="en hidden">
-      <h2>Contact Us</h2>
-      <p>WhatsApp: 000000000<br>Instagram: @infinitypal<br>Email: info@infinity.com</p>
-    </div>
-  </section>
+<footer>
+<p>&copy; 2025 Infinity PAL. All Rights Reserved.</p>
+</footer>
 
-  <footer>
-    <p>© 2025 Infinity PAL. All rights reserved.</p>
-  </footer>
+<script>
+function toggleLang() {
+const arElements = document.querySelectorAll('.ar');
+const enElements = document.querySelectorAll('.en');
 
-  <script>
-    function toggleLang() {
-      const arElements = document.querySelectorAll('.ar');
-      const enElements = document.querySelectorAll('.en');
-      const btn = document.querySelector('.lang-switch');
-      const isArabic = btn.textContent === 'English';
-      arElements.forEach(el => el.classList.toggle('hidden', !isArabic));
-      enElements.forEach(el => el.classList.toggle('hidden', isArabic));
-      btn.textContent = isArabic ? 'العربية' : 'English';
-      document.documentElement.dir = isArabic ? 'ltr' : 'rtl';
-      document.documentElement.lang = isArabic ? 'en' : 'ar';
-    }
-  </script>
+arElements.forEach(el => el.classList.toggle('hidden'));
+enElements.forEach(el => el.classList.toggle('hidden'));
+
+const btn = document.querySelector('.lang-switch');
+btn.textContent = btn.textContent === 'English' ? 'العربية' : 'English';
+}
+</script>
+
 </body>
 </html>
+```
